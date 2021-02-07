@@ -1,4 +1,24 @@
-# AngularTourOfHeroes
+# What is the purpose of this repos.
+
+* Explore MVC in an engineering sense
+* Explore MVP in an engineering sense
+* Create documentation to describe OOP as I know it.
+* Document all the commonly used Angular specific things that i know.
+* Recreate the Tour of Heroes tutorial from scratch
+* Explore Angular Universal
+* Explore ng builder pack to customize webpack
+* explore ng schematics
+* How to simplify route traversal using e2e
+* How to modularize the source code from the build tool
+  * mac, os, veeva, web with the same source code.
+
+There will be a lot of repetitition as I formulate and discuss with myself about what the best option is at every single point from greenfield to mature app.
+
+----
+
+## commonly used ng cli
+
+## AngularTourOfHeroes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 
