@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeroesModule } from './shared/components/heroes/heroes.module';
+import { HeroesModule } from './shareable/components/heroes/heroes.module';
 
 @NgModule({
   declarations: [
