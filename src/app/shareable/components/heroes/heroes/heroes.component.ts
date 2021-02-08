@@ -1,4 +1,5 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, EventEmitter, Input, OnInit, Output } from "@angular/core";
+
 import { Hero } from "../hero.interface";
 
 @Component({
@@ -7,7 +8,7 @@ import { Hero } from "../hero.interface";
   templateUrl: './heroes.component.html',
 })
 export class HeroesComponent implements OnInit {
-
+  @Output() outputEvent = new EventEmitter<string>();
   public hero: Hero = {
     name: 'WindStorms',
     id: 1,
@@ -15,6 +16,12 @@ export class HeroesComponent implements OnInit {
   constructor() {
 
   }
+
+  addStuff(e) {
+    console.log(e.target)
+    this.outputEvent.emit(e.value)
+  }
+
   ngOnInit() {
     console.log('init')
   }

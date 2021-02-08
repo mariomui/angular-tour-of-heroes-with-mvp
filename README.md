@@ -17,8 +17,9 @@ There will be a lot of repetitition as I formulate and discuss with myself about
 ----
 
 ## commonly used ng cli
-* ng g interface --type interface shared/components/heroes/hero
+* ng g interface --type interface shared/components/heroes/hero 
   * creates a file hero.interface.ts interface
+* ng g component shareable/components/heroes --module	shareable/components/heroesModule
 ## AngularTourOfHeroes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.

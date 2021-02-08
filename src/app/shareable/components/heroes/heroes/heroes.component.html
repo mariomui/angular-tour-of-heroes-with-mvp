@@ -1,3 +1,9 @@
-<h2>{{hero.name | uppercase}} Details</h2>
-<div><span>id: </span>{{hero.id}}</div>
-<div><span>name: </span>{{hero.name}}</div>
+<section class="content">
+  <h2>{{hero.name | uppercase}} Details</h2>
+  <div><span>id: </span>{{hero.id}}</div>
+  <!-- <div><span>name: </span>{{hero.name}}</div> -->
+  <article class="hero-name">
+    <app-input-box [heroName]="hero.name"></app-input-box>
+    <!-- [(ngModel)]="item" is a shorthand for [ngModel]="item" (ngModelChange)="item = $event" -->
+  </article>
+</section>
