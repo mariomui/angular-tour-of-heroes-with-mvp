@@ -1,21 +1,25 @@
 # What is the purpose of this repos.
 
-* Explore MVC in an engineering sense
-* Explore MVP in an engineering sense
-* Create documentation to describe OOP as I know it.
-* Document all the commonly used Angular specific things that i know.
-* Recreate the Tour of Heroes tutorial from scratch
-* Explore Angular Universal
-* Explore ng builder pack to customize webpack
-* explore ng schematics
-* How to simplify route traversal using e2e
-* How to modularize the source code from the build tool
-  * mac, os, veeva, web with the same source code.
+- [ ] Explore MVC in an engineering sense
+- [ ] Explore MVP in an engineering sense
+- [x] Create documentation to describe OOP as I know it.
+- [ ] Document all the commonly used Angular specific things that i know.
+- [x] Recreate the Tour of Heroes tutorial from scratch
+  - [x] Create my own guide for learning
+  - [x] Create documentation for directory structure
+  - [x] Create Detail View
+  - [ ] Create Modal
+- [ ] Explore Angular Universal
+- [ ] Explore ng builder pack to customize webpack
+- [ ] explore ng schematics
+- [ ] How to simplify route traversal using e2e
+- [ ] How to modularize the source code from the build tool
+  - [ ] mac, os, veeva, web with the same source code.
 
 There will be a lot of repetitition as I formulate and discuss with myself about what the best option is at every single point from greenfield to mature app.
 
 ----
-
+NOTES. 9.1.7 is fucked up.
 ## commonly used ng cli
 * ng g interface --type interface shared/components/heroes/hero 
   * creates a file hero.interface.ts interface

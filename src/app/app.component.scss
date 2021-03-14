@@ -1,18 +1,16 @@
-@import 'mixins';
+@use "mixins" as m;
+// @import "styles";
 
-h1,
-body {
-  margin : 0;
-  padding: 0;
+.main {
+  height: 100%;
+  width: 100%;
 }
-
-.aside {
+aside {
   position: absolute;
-
 }
 
 .modal {
-  background-color: rgba(0, 0, 0, .5);
-  @include absoluteFill;
+  background-color: rgba(0, 0, 0, 0.5);
+  @include m.absoluteFill;
   display: none;
 }
