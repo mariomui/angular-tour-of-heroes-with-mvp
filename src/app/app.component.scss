@@ -1,16 +1,33 @@
-@use "mixins" as m;
-// @import "styles";
+@use 'mixins' as m;
+.root__main {
+  background-color: blue;
+}
 
 .main {
-  height: 100%;
   width: 100%;
-}
-aside {
-  position: absolute;
-}
 
+  .main__header {
+    background: blue;
+    color: white;
+    height: 10vh;
+    width: 100%;
+  }
+
+  .main__outlet {
+    height: 80vh;
+  }
+  .main__footer {
+    background: blue;
+    color: white;
+    height: 10vh;
+    width: 100%;
+  }
+}
 .modal {
   background-color: rgba(0, 0, 0, 0.5);
   @include m.absoluteFill;
   display: none;
+}
+aside {
+  position: absolute;
 }
