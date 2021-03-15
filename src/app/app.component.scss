@@ -1,28 +1,30 @@
 @use 'mixins' as m;
+:host {
+  height: 100%;
+  @include m.absoluteFill;
+}
 .root__main {
-  background-color: blue;
+  height: 100%;
+  .main {
+    width: 100%;
+
+    &article.main__header {
+      background-color: blue;
+      color: white;
+      min-height: 10vh;
+    }
+
+    &.main__outlet {
+      height: 100%;
+    }
+    &article.main__footer {
+      background: red;
+      color: white;
+      height: 10vh;
+    }
+  }
 }
 
-.main {
-  width: 100%;
-
-  .main__header {
-    background: blue;
-    color: white;
-    height: 10vh;
-    width: 100%;
-  }
-
-  .main__outlet {
-    height: 80vh;
-  }
-  .main__footer {
-    background: blue;
-    color: white;
-    height: 10vh;
-    width: 100%;
-  }
-}
 .modal {
   background-color: rgba(0, 0, 0, 0.5);
   @include m.absoluteFill;
