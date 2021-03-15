@@ -9,5 +9,6 @@ import { StandardLayoutComponent } from 'src/app/shareable/layouts/standard/stan
 export class PageOneComponent
   extends StandardLayoutComponent
   implements OnInit {
+  title = "mario's ng universal experiment";
   ngOnInit(): void {}
 }
